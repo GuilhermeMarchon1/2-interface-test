@@ -1,0 +1,51 @@
+
+@import url("../bootstrap.css/bootstrap.css");
+@import url("/bootstrap.css/bootstrap-reboot.css");
+@import url("static/OpenSans_SemiCondensed-Italic.ttf");
+@import url("../bootstrap_icones/bootstrap-icons.css");
+
+body {
+    background-image: url("../images/background1.jpg");
+    background-size:  100% 950px;
+    /*background-position: -34px;*/
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+
+}
+#primeiro_text{
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 55px;
+
+}
+.botao_relatorio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    width: 100%;
+}
+
+.botoes {
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.botao{
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.link_google{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-left: 1320px;
+    margin-top: -80px;
+    color:white
+}
